@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.login-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.stats-card {
+  border-left: 4px solid #007bff;
+  transition: transform 0.2s;
+}
+
+.stats-card:hover {
+  transform: translateY(-2px);
+}
+
+.stats-card.present {
+  border-left-color: #28a745;
+}
+
+.stats-card.absent {
+  border-left-color: #dc3545;
+}
+
+.stats-card.percentage {
+  border-left-color: #ffc107;
+}
